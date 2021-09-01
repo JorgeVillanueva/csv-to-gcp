@@ -1,0 +1,22 @@
+{
+  "name": "bq-test",
+  "version": "1.0.0",
+  "description": "csv upload to bigquery test.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.8.0",
+    "@google-cloud/storage": "^5.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.12.1",
+    "uuid": "^8.3.2"
+  }
+}
